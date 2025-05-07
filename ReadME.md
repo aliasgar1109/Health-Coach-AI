@@ -1,50 +1,59 @@
-# Welcome to your Expo app 👋
+# Health Coach AI 🧠💪
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Health Coach AI** is a smart web-based application that provides personalised health and fitness guidance using AI. This tool helps users stay motivated, track their wellness journey, and receive tailored coaching in real-time.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
 
-   ```bash
-   npm install
-   ```
+- 🧬 AI-powered health and wellness coaching  
+- 💬 Chat-based interaction with a virtual coach  
+- 📊 Health tracking and visual insights  
+- 🎯 Goal setting and motivation support  
+- 🌐 Built with React.js, Flask, and OpenAI API  
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+## 🛠️ Tech Stack
 
-In the output, you'll find options to open the app in a
+| Frontend | Backend | AI Integration | Styling |
+|----------|---------|----------------|---------|
+| React.js | Flask (Python) | OpenAI GPT | CSS, Bootstrap |
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## ⚙️ Getting Started
 
-## Get a fresh project
+### Prerequisites
 
-When you're ready, run:
+Make sure you have installed:
 
-```bash
-npm run reset-project
-```
+- Node.js and npm  
+- Python 3.7+  
+- Git  
+- OpenAI API key
+##  1. Clone the Repository
+bash
+git clone https://github.com/aliasgar1109/Health-Coach-AI.git
+cd "Health Coach AI"
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Start the Backend (Flask)
+bash
+cd server
+python app.py
 
-## Learn more
+Step 2: Start the Frontend (React)
+bash
+cd client
+npm start
 
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+##Project Structure 
+ealth Coach AI/
+├── client/         # React frontend
+│   ├── public/
+│   └── src/
+│       └── components/
+├── server/         # Flask backend
+│   └── app.py
+├── .env            # OpenAI API key (in server folder)
+└── README.md
