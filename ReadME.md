@@ -46,14 +46,3 @@ Step 2: Start the Frontend (React)
 bash
 cd client
 npm start
-
-##Project Structure 
-ealth Coach AI/
-├── client/         # React frontend
-│   ├── public/
-│   └── src/
-│       └── components/
-├── server/         # Flask backend
-│   └── app.py
-├── .env            # OpenAI API key (in server folder)
-└── README.md
